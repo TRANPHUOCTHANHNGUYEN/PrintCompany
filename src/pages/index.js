@@ -19,7 +19,7 @@ import MenuContextProvider from "@/context/menu-context";
 const Home = () => {
   return (
     <MenuContextProvider>
-      <Layout PageTitle="Home Page">
+      <Layout PageTitle="Perfect">
         <HeaderOne />
         <SliderOne />
         <AboutTwo />

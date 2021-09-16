@@ -32,17 +32,8 @@ const ClientCarousel = () => {
     }
   };
   return (
-    <div className="brand-carousel-wrapper">
+    <div className="-wrapper">
       <div className="thm-container">
-        <Swiper className="brand-carousel" {...carouselOptions}>
-          {ClientCarouselData.map(({ image }, index) => (
-            <SwiperSlide key={index}>
-              <div className="item">
-                <img src={image} alt="Awesome Image" />
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
       </div>
     </div>
   );

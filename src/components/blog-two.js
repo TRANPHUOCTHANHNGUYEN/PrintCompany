@@ -17,13 +17,6 @@ const BlogTwo = () => {
           </p>
         </div>
         <Row>
-          {BlogPostsData.slice(0, 2).map((post, index) => {
-            return (
-              <Col md={6} key={index}>
-                <BlogCard data={post} />
-              </Col>
-            );
-          })}
         </Row>
       </div>
     </section>

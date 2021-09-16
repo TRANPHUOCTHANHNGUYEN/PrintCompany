@@ -50,7 +50,7 @@ const Layout = ({ PageTitle, children }) => {
     <Fragment>
       <Helmet>
         <title>
-          {PageTitle} - Printify - Printing company GatsbyJS Template
+          {PageTitle}
         </title>
       </Helmet>
       <div id="wrapper">{children}</div>
