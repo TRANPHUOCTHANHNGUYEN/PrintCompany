@@ -24,4 +24,4 @@ yarn build
 
 yarn start
 
-<img src="public/images/main.png" alt="" style="max-width: 100%;">
+<img src="src/assets/preview/main.png" alt="" style="max-width: 100%;">
